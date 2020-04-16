@@ -3,21 +3,6 @@ import { synth1, remDuoListeners, duoSynth } from "./duoSynth";
 import { synth2, remMonoListeners, monoSynth} from './monoSynth';
 import { synth3, remPolyListeners, polySynth } from './polySynth';
 import { loops } from './loops';
-import {metalSynth} from './metalSynth';
-
-
-// let instrumentState;
-// const synthButtons = document.getElementsByClassName('synth-buttons')
-// const sbArray = Array.from(synthButtons);
-
-// let instrumentState = "duosynth";
-
-// for(let i=0; i < sbArray.length; i++){
-//   let button = sbArray[i]
-//   button.addEventListener("click", e => {
-//     instrumentState = e.target.dataset.synth
-//   })
-// }
 
 
 
