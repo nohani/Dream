@@ -1,0 +1,151 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Baloo Tammudu 2", sans-serif;
+  min-width: 800px;
+  color: white;
+  /* background: gradient(45deg,#c3c3c3, #7c9eb2, #52528c, #231123) fixed; */
+  background: #231123;
+  background: linear-gradient(135deg,#c3c3c3 0%, #7c9eb2 35%, #52528c 100%);
+}
+
+.outer-div {
+  max-width: 1000px;
+}
+
+.outermost {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: center;
+}
+#title { 
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.title p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+
+ul .white-key {
+  position: relative;
+  background-color: #c3c3c3;
+  border: 4px solid rgb(255, 255, 255, 1.0);
+  cursor: pointer;
+  width: 50px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+ul .white-key:first-child{
+  border-radius: 10px 0 0 10px;
+}
+
+ul .white-key:last-child{
+  border-radius: 0 10px 10px 0;
+}
+
+ul .black-key {
+  position: absolute;
+  z-index: 10;
+  border: 5px solid white;
+  background-color: #372554;
+  cursor: pointer;
+  width: 30px;
+  height: 75px;
+  left: 35px;
+  top: 5px;
+  padding-top: 10px;
+  color: white;
+}
+/* 
+ul .white-key:hover {
+  background-color: gray;
+}
+
+ul .black-key:hover {
+  background-color: black;
+} */
+
+#synth-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 3px solid white;
+  border-radius: 7px;
+  margin-left: 3rem;
+}
+
+#synth-buttons > button {
+  width: 100%;
+  background-color: #7c9eb2;
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1rem;
+  outline: none;
+  font-family: "Baloo Tammudu 2", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+#synth-buttons > button:last-child {
+  border-bottom: 0;
+}
+
+#synth-buttons > button:active {
+  outline: none;
+  background-color: #372554; 
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 3rem;
+  margin: 0 20px;
+}
+
+#loop-buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+
+#loop-buttons > div {
+  margin-top: 2rem;
+}
+
+a {
+  color: white;
+}
