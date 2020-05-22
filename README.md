@@ -1,8 +1,8 @@
-# [Dream](https://nohani.github.io/Dream/)
+# [Dream](https://nohani.github.io/dream/)
 
 ## Live Link 
 
-[https://nohani.github.io/Dream/](https://nohani.github.io/Dream/)
+[https://nohani.github.io/dream/](https://nohani.github.io/Dream/)
 
 
 ## Instructions

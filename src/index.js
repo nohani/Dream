@@ -33,8 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 
-
-
+  document.querySelector(".close-modal").addEventListener("click", (e) => {
+    let modal = document.querySelector(".modal");
+    modal.classList.add('hidden');
+    Tone.Transport.start();
+  })
 })
 
 

@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Baloo Tammudu 2", sans-serif;
-  min-width: 800px;
+  width: 100%;
   color: white;
   /* background: gradient(45deg,#c3c3c3, #7c9eb2, #52528c, #231123) fixed; */
   background: #231123;
@@ -72,14 +72,6 @@ ul .black-key {
   padding-top: 10px;
   color: white;
 }
-/* 
-ul .white-key:hover {
-  background-color: gray;
-}
-
-ul .black-key:hover {
-  background-color: black;
-} */
 
 #synth-buttons {
   display: flex;
@@ -128,7 +120,7 @@ footer {
 }
 
 .icons {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 20px;
 }
 
@@ -136,7 +128,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 400px;
+  width: 90%;
   margin: auto;
   margin-top: 3rem;
   justify-content: space-evenly;
@@ -144,8 +136,70 @@ footer {
 
 #loop-buttons > div {
   margin-top: 2rem;
+  box-sizing: border-box;
+  width: 20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 a {
   color: white;
+}
+
+.loop-name {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* .modal { */
+  /* display: block;
+  background-color: rgba(255, 255, 255, .6);
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 5px 10px #888888;
+  color: black;
+  padding: 10px;
+  width: 65%;
+  margin: 20px auto;
+  text-align: center; */
+/* } */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: gray;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-modal{
+  margin: 10px auto;
+  width: 25px;
+  height: 25px;
+}
+
+.hidden {
+  display: none;
 }

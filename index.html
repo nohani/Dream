@@ -22,19 +22,33 @@
         <p> Choose your instrument and play </p>
       </div>
 
+      <div class="modal">
+        <div class="overlay">
+          <div class="modal-content">
+            <p> Welcome! The labeled buttons are loops. To play the synthesizer, click an instrument on the right. Once
+              you've done that, play by either using your keyboard
+              (the keys are labeled with the corresponding letters) or clicking on the keys of the on-screen keyboard. </p>
+              <br>
+            <p> Click play to close the instructions and start!</p>
+            <button title="Close" class="close-modal">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div>
 
         <div id="loop-buttons">
-          <div>Start Time <button id="time-start" ><i class="fas fa-play"></i></button></div>
-          <div>Laser Beam <button id="play1" ><i class="fas fa-play"></i></button><button id="stop1"><i class="fas fa-stop"></i></button></div>
-          <div>Thump <button id="play2"><i class="fas fa-play"></i></button><button id="stop2"><i class="fas fa-stop"></i></button></div>
-          <div>Beep <button id="play3"><i class="fas fa-play"></i></button><button id="stop3"><i class="fas fa-stop"></i></button></div>
-          <div>Bass <button id="play4"><i class="fas fa-play"></i></button><button id="stop4"><i class="fas fa-stop"></i></button></div>
-          <div>Hang Up<button id="play5"><i class="fas fa-play"></i></button><button id="stop5"><i class="fas fa-stop"></i></button></div>
-          <div>Jingle<button id="play6"><i class="fas fa-play"></i></button><button id="stop6"><i class="fas fa-stop"></i></button></div>
-          <div>Intzintz<button id="play7"><i class="fas fa-play"></i></button><button id="stop7"><i class="fas fa-stop"></i></button></div>
-          <div>Pong<button id="play8"><i class="fas fa-play"></i></button><button id="stop8"><i class="fas fa-stop"></i></button></div>
-          <div>Heartbeat<button id="play9"><i class="fas fa-play"></i></button><button id="stop9"><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Laser Beam</span><button id="play1" ><i class="fas fa-play"></i></button><button id="stop1" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Thump</span> <button id="play2"><i class="fas fa-play"></i></button><button id="stop2" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Beep </span><button id="play3"><i class="fas fa-play"></i></button><button id="stop3" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Bass </span><button id="play4"><i class="fas fa-play"></i></button><button id="stop4" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Hang Up</span><button id="play5"><i class="fas fa-play"></i></button><button id="stop5" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Jingle</span><button id="play6"><i class="fas fa-play"></i></button><button id="stop6" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Intzintz</span><button id="play7"><i class="fas fa-play"></i></button><button id="stop7" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Pong</span><button id="play8"><i class="fas fa-play"></i></button><button id="stop8" class='hidden'><i class="fas fa-stop"></i></button></div>
+          <div><span class='loop-name'>Heartbeat</span><button id="play9"><i class="fas fa-play"></i></button><button id="stop9" class='hidden'><i class="fas fa-stop"></i></button></div>
         </div>
         
         
@@ -74,7 +88,9 @@
         </div>
       </div>
       <footer>
+          <a href="https://nicoleohanian.com/" target="_blank"><div class="icons"><i class="fas fa-globe"></i></div></a>
           <a href="https://www.linkedin.com/in/nicoleohanian/" target="_blank"><div class="icons"><i class="fab fa-linkedin"></i></div></a>
+          <a href="https://angel.co/u/nicole-ohanian" target="_blank"><div class="icons"><i class="fab fa-angellist"></i></div></a>
           <a href="https://github.com/nohani" target="_blank"><div class="icons"><i class="fab fa-github-square"></i></div></a>
       </footer>
     </div>
